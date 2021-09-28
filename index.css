@@ -71,7 +71,7 @@
     background-color: rgb(180, 42, 42);
     color: white;
     text-align: center;
-    padding-bottom: 10px;
+    grid-column: 1/-1;
 }
 
 .p1 {
@@ -99,7 +99,7 @@
 
 .c4 {
     background: grey;
-    grid-row: 1/-1;
+    grid-row: 2/4;
     grid-column: 4;
 }
 
@@ -114,4 +114,9 @@
     text-align: center;
     /* padding-bottom: 10px; */
     grid-column: 1/-1;
+}
+
+hr {
+    position: relative;
+    margin-top: 0%;
 }
