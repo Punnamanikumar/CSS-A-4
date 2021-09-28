@@ -1,0 +1,111 @@
+.g1 {
+    text-decoration: underline;
+    text-align: center;
+    background: linear-gradient(to right, red, green, yellow);
+}
+
+.b1 {
+    border: 4px solid red;
+    border-radius: 16px;
+    background-color: rgb(3, 85, 85);
+    text-align: center;
+    padding-left: 5%;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.b2 {
+    background-color: aquamarine;
+    border: 3px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 6px;
+}
+
+.b21 {
+    background-color: aqua;
+    border: 1px solid forestgreen;
+    margin: 0px 10px 0px 10px;
+    border-radius: 6px;
+    height: 80px;
+    font-weight: bold;
+}
+
+.b22 {
+    grid-row: 4/1;
+}
+
+.g2 {
+    text-decoration: underline red;
+    text-align: center;
+    background: linear-gradient(to right, red, yellow, red)
+}
+
+.f1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: radial-gradient(ellipse, blue, green);
+    height: 200px;
+}
+
+.f11 {
+    border-radius: 6px;
+    border: 1px solid maroon;
+    background-color: yellow;
+    color: red;
+    text-decoration: underline red;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.b3 {
+    background-color: rgb(180, 42, 42);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.p1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.25fr;
+    grid-template-rows: 70px 100px;
+    gap: 10px;
+    color: white;
+}
+
+.c1 {
+    background-color: lightgreen;
+    font-size: x-large;
+}
+
+.c2 {
+    background-color: lightskyblue;
+    font-size: x-large;
+}
+
+.c3 {
+    background: blue;
+    font-size: x-large;
+}
+
+.c4 {
+    background: grey;
+    grid-row: 1/-1;
+    grid-column: 4;
+}
+
+.c5 {
+    background: yellow;
+    grid-column: 1/4;
+    font-size: x-large;
+}
+
+.b4 {
+    background-color: aqua;
+    text-align: center;
+    padding-bottom: 10px;
+}
