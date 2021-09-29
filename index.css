@@ -112,7 +112,6 @@
 .b4 {
     background-color: aqua;
     text-align: center;
-    /* padding-bottom: 10px; */
     grid-column: 1/-1;
 }
 
